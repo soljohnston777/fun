@@ -1,0 +1,169 @@
+/* Theme Stylesheet
+ *
+ * This file contains the CSS style declarations for your theme. You can
+ * edit the look and feel for your entire site by editing this one file.
+ */
+
+/* General Structure */
+body {
+	background: #fff;
+	font-family: Arial, Tahoma, Calibri;
+	font-size: 12px;
+}
+
+p {
+	font-size: 12px;
+}
+
+a, a:link, a:visited {
+	color: #1f75de;
+}
+
+a:hover, a:active {
+	color: #cc3d3d;
+}
+ 
+#wrapper {
+	width: 980px;
+	background: #fff;
+	min-height: 500px;
+	margin: 15px auto;
+}
+
+/* Navigation */
+#navigation {
+	background: #555;
+	height: 35px;
+}
+
+#navigation a:link, #navigation a:visited {
+	color: #f9f9f9;
+}
+
+.nav {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav li a {
+	padding: 15px;
+	line-height: 35px;
+	text-decoration: none;
+}
+
+.nav li a:hover, .nav li a:active {
+	background: #000;
+	color: #e4e4e4;
+}
+
+/* Post */
+#main {
+	width: 600px;
+	float: left;
+}
+
+.post {
+	overflow: auto;
+	clear: both;
+	margin: 20px 0 0 0;
+	padding-bottom: 15px;
+}
+
+.post-image {
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin: 0 15px 10px 0;
+	padding: 5px;
+	background: #fff;
+	border: 1px solid #e4e4e4;
+}
+
+.post h3 {
+	font-size: 24px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 0 3px 0;
+}
+
+.post h3 a {
+	color: #000;
+	text-decoration: none;
+}
+
+.post h3 a:hover {
+	color: #555;
+}
+
+.post-meta {
+	margin: 0 0 5px 0;
+	font-size: 11px;
+	color: #777;
+}
+
+.readmore {
+	border-top: 4px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.readmore p {
+	text-transform: uppercase;
+}
+
+.readmore a {
+	text-decoration: none;
+}
+
+/* Comparision Chart */
+#price-comparison {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#comparison-image-cell {
+	width: 60px;
+}
+
+.spacer {
+	background: #e4e4e4;
+	border: 1px solid #e4e4e4;
+	height: 10px;
+}
+
+#comparison-header {
+	background: #e4e4e4;
+	border: 1px solid #e4e4e4;
+	height: 30px;
+}
+
+#price-comparison td {
+	border: 1px solid #e4e4e4;
+	padding: 5px;
+	text-align: center;
+}
+
+.merchant-image {
+	height: 50px;
+	width: 50px;
+	background: #fff;
+	padding: 2px;
+	border: 1px solid #e4e4e4;
+}
+
+.merchant-name-td {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* Sidebar */
+#sidebar {
+	margin-top: 20px;
+	width: 300px;
+	float: right;
+}

@@ -1,0 +1,292 @@
+/* Default Admin Theme CSS */
+
+body { 
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Calibri, Tahoma, Verdana;
+	font-size: 12px;
+}
+
+p {
+	font-size: 12px;
+}
+
+.spacer {
+	height: 10px;
+	border-top: 1px solid #555;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+#header {
+	background: #7a7a7a;
+	height: 40px;
+}
+
+#header img {
+	margin: 2px 20px 0 0;
+	float: left;
+}
+
+#header p {
+	margin-top: 12px;
+	padding: 0;
+	color: #f9f9f9;
+	text-align: right;
+	float: left;
+}
+
+#header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#header a:hover {
+	text-decoration: underline;
+}
+
+.header-content {
+	margin-left: 15px;
+	width: 400px;
+	float: left;
+	text-align: left;
+}
+
+.header-user {
+	float: right;
+	margin-right: 50px;
+}
+
+#navigation {
+	width: 10%;
+	float: left;
+	margin: 20px 1% 0 0;
+}
+
+#navigation a {
+	text-decoration: none;
+	color: #555;
+}
+
+#navigation a:hover {
+	color: #777;
+}
+
+.admin-nav {
+	margin: 0 0 15px 15px;
+	list-style-type: none;
+	border: 1px solid #e4e4e4;
+	padding: 0;
+	overflow: hidden;
+}
+
+.admin-nav-item {
+	padding: 7px 10px;
+}
+
+.nav-item-header {
+	background: #e6e6e6;
+}
+
+#main {
+	width: 85%;
+	margin-top: 20px;
+	padding: 0 20px;
+	float: left;
+}
+
+#main h3 {
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0 0 20px 0;
+}
+
+#main input, #main textarea, #main select {
+	border: 1px solid #e6e6e6;
+	padding: 5px;
+}
+
+.entry-table {
+	width: 100%;
+}
+
+.input-text {
+	width: 100%;
+}
+
+.input-textarea {
+	width: 100%;
+	height: 250px;
+}
+
+#image-upload-input {
+	width: 80%;
+}
+
+.display-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 12px;
+}
+
+.display-table a {
+	color: #21759B;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.display-table a:hover {
+	color: #D54E21;
+}
+
+.display-table, .display-table th, .display-table td {
+	border: 1px solid #e6e6e6;
+}
+
+.display-table th, .display-table td { 
+	padding: 5px;
+}
+
+.display-table thead, .display-table tfoot {
+	background: #e6e6e6;
+	color: #555;
+	font-size: 11px;
+	text-align: left;
+}
+
+.id-cell {
+	width: 15px;
+	text-align: center;
+}
+
+.image-upload-button {
+	padding: 7px;
+	background: #ddd;
+	border: 1px solid #e4e4e4;
+	display: block;
+	text-decoration: none;
+	color: #555;
+	width: 100px;
+	float: right;
+	text-align: center;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.image-upload-button:hover {
+	background: #ccc;
+}
+
+#product-add-wrapper {
+	overflow: auto;
+	clear: both;
+}
+
+#product-left {
+	width: 78%;
+	float: left;
+	margin-right: 2%
+}
+
+#product-right {
+	width: 20%;
+	float: right;
+}
+
+.product-meta {
+	border: 1px solid #e6e6e6;
+	margin: 10px 0;
+}
+
+#product-right h3 {
+	background: #e6e6e6;
+	font-size: 12px;
+	color: #555;
+	padding: 7px 10px;
+	margin: 0 0 10px 0;
+}
+
+#publish {
+	margin-top: 42px;
+	clear: both;
+	overflow: auto;
+	border: none;
+}
+
+.input-submit {
+	background: #1a1a1a;
+	width: 100%;
+	color: #f9f9f9;
+	padding: 7px 10px !important;
+	font-size: 12px;
+	cursor: pointer;
+	margin: 0 auto !important;
+	height: 35px !important;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.input-submit:hover {
+	background: #4a4a4a;
+}
+
+#publish .input-submit {
+	
+}
+
+#product-right #category .input-select {
+	display: block;
+	margin: 0 auto 15px auto;
+	width: 90%;
+}
+
+#merchant-pricing {
+	margin: 5px;
+	border-collapse: collapse;
+}
+
+#merchant-pricing th {
+	text-align: left;
+}
+
+#merchant-pricing td {
+	padding-bottom: 3px;
+}
+
+.pricing-header {
+	width: 250px;
+}
+
+.pricing-input-td {
+	width: 80px;
+}
+
+.pricing-input {
+	width: 80px;
+	height: 20px;
+}
+
+#featured-image img {
+	width: 90%;
+	padding: 3px;
+	border: 1px solid #e4e4e4;
+	display: block;
+	margin: 0 auto 10px auto;
+}
+
+.new-button {
+	margin-left: 10px;
+	font-size: 11px;
+	background: #f2f2f2;
+	border: 1px solid #bbb;
+	padding: 7px 10px;
+	width: 100px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: #464646;
+	text-shadow: rgba(255,255,255,1), 0 1px 0;
+}
